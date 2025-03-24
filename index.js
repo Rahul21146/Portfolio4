@@ -23,6 +23,7 @@ function menuswap(){
 
 
 menu.addEventListener("click",()=>{
+    console.log("hello");
     menuswap();
 });
 navbarList.addEventListener("click",()=>{
@@ -31,3 +32,13 @@ navbarList.addEventListener("click",()=>{
 
 
 
+var typeData = new Typed(".role", {
+    strings: [
+      "Web Developer",
+      "Coder",
+    ],
+    loop: true,
+    typeSpeed: 100,
+    backSpeed: 80,
+    backDelay: 1000,
+  });
